@@ -19,5 +19,11 @@ hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0
 #multiple reducer
 You can also increase the task for the reducer in your hadoop cluster as 
 hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.5.0.jar -D mapred.reduce.tasks=16 ....
-
 you can also copy the above command in a shell script, so just need to run ./command_file_name.
+
+#hadoop Output
+you can check your output in file named as output in your hadoop cluster 
+
+#Running time
+we are also calculating here running time for both mapper and reducer separately.
+
