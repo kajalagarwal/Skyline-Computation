@@ -1,12 +1,12 @@
-//mapper and reducer
+#mapper and reducer
 Finding the skyline on dataset with multiple dimensions
 
 
 This code is generating skyline for the  data set points collected by different station for different dimensions. 
-FURTHER INFORMATION ON DATA SET CAN BE SEEN HERE http://www.ncdc.noaa.gov/cgi-bin/res40.pl.
+FURTHER INFORMATION ON DATA SET CAN BE SEEN HERE #http://www.ncdc.noaa.gov/cgi-bin/res40.pl.
 
 We are using standard sequential skyline algorithm for the computation of skyline.
-//code running direction
+#code running direction
 
 copy the mapper and reducer file named as mapper.py and reducer.py on your hadoop cluster.
 #copy input file at hdfs
@@ -20,4 +20,4 @@ hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0
 You can also increase the task for the reducer in your hadoop cluster as 
 hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.5.0.jar -D mapred.reduce.tasks=16 ....
 
-#you can also copy the above command in a shell script, so just need to run ./command_file_name.
+you can also copy the above command in a shell script, so just need to run ./command_file_name.
