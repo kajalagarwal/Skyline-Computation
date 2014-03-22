@@ -15,7 +15,7 @@ copy the mapper and reducer file named as mapper.py and reducer.py on your hadoo
 hadoop fs -copyFromLocal data.out    
 
 #Deploy command for the map/reduce code 
-hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.5.0.jar -mapper ./new_mapper.py -reducer ./new_reducer.py -input data.out -output output -file new_mapper.py -file new_reducer.py
+hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.5.0.jar -mapper ./mapper.py -reducer ./reducer.py -input data.out -output output -file mapper.py -file reducer.py
 
 #multiple reducer
 You can also increase the task for the reducer in your hadoop cluster as 
