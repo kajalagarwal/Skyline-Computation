@@ -8,7 +8,7 @@ FURTHER INFORMATION ON DATA SET CAN BE SEEN HERE http://www.ncdc.noaa.gov/cgi-bi
 We are using standard sequential skyline algorithm for the computation of skyline.
 //code running direction
 
-copy the mapper and reducer file named as new_mapper.py and new_reducer.py on your hadoop cluster.
+copy the mapper and reducer file named as mapper.py and reducer.py on your hadoop cluster.
 #copy input file at hdfs
 hadoop fs -copyFromLocal data.out    
 
