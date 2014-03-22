@@ -4,6 +4,8 @@ Finding the skyline on dataset with multiple dimensions
 
 This code is generating skyline for the  data set points collected by different station for different dimensions. 
 FURTHER INFORMATION ON DATA SET CAN BE SEEN HERE #http://www.ncdc.noaa.gov/cgi-bin/res40.pl.
+In my code i am calculating skyline on TEMP, DEWP, SLP, MAX, STP, WDSP, MXSPD, GUST, MIN.
+I am maximizing the attributes TEMP, DEWP, SLP, MAX and minimizing STP, WDSP, MXSPD, GUST and MIN.
 
 We are using standard sequential skyline algorithm for the computation of skyline.
 #code running direction
